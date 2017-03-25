@@ -8,7 +8,7 @@
  * site-header
  */
 .site-header {
-  padding: 10px 0;
+  padding: 12px 0;
   border-bottom: 1px solid $grey-color-light;
 
   .container {
@@ -19,6 +19,7 @@
 
 .site-nav ul {
   margin: 0;
+  padding-left: 0;
   list-style-type: none;
   display: flex;
 }
