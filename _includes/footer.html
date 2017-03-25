@@ -1,5 +1,8 @@
 <footer class="site-footer">
   <div class="container">
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    &copy; {{ site.time || date: "%Y" }}
+    <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    &middot; subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a>
   </div>
 </footer>

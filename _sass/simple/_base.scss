@@ -3,6 +3,23 @@
  */
 body {
   font-family: $base-font;
+  line-height: 1.6;
   color: $text-color;
   background-color: $background-color;
+}
+
+a,
+a:visited {
+  color: $blue-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $grey-color-dark;
+  text-decoration: underline;
+}
+
+h1,
+h2 {
+  font-weight: 300;
 }
